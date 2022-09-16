@@ -7,7 +7,7 @@ main()
 		for (j = 1;j < 10;j++)
 		{
 			result = i * j;
-			printf("%d*%d=%-3d", i, j, result);
+			printf("%d*%d=%-3d", i, j, result);//-3d表示左对齐，占三位
 		}
 		printf("\n");
 	}
